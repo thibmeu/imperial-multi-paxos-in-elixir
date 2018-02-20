@@ -9,7 +9,7 @@ def version 1 do	# configuration 1
   debug_level:  0, 	    # debug level 
   docker_delay: 5_000,	# time (ms) to wait for containers to start up
 
-  max_requests: 500,   	# max requests each client will make
+  max_requests: 250,   	# max requests each client will make
   client_sleep: 5,	    # time (ms) to sleep before sending new request
   client_stop:  10_000,	# time (ms) to stop sending further requests
   n_accounts:   100,	# number of active bank accounts
